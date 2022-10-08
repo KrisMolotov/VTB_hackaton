@@ -1,0 +1,66 @@
+.main {
+    overflow: hidden;
+}
+
+.main .container {
+    position: relative;
+    padding-bottom: 121px;
+}
+
+.main .sub-title {
+    margin-bottom: 20px;
+}
+
+.main-text {
+    font-size: 16px;
+    line-height: 130%;
+    color: #5D5D5F;
+    margin-bottom: 60px;
+}
+
+.main-form {
+    max-width: 344px;
+}
+
+.main-input {
+    padding: 22px 18px;
+    width: 344px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #5D5D5F;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.main-input::placeholder {
+    color: #5D5D5F;
+}
+
+.main .button {
+    width: 100%;
+}
+
+.main-image {
+    position: absolute;
+    bottom: 0;
+    left: 401px;
+}
+
+.footer {
+    border-top: 1px solid #E5E5E5;
+    padding: 25px 0;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rights {
+    font-size: 15px;
+    color: #030305;
+}

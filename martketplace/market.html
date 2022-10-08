@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>VTB_Service</title>
+  <link rel="stylesheet" href="../styles/style_market.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <img src="../images/vtb-hayastan-bank-l.22.png" alt="Logo">
+    </div>
+    <nav class="menu">
+      <ul>
+        <li class="menu-item">
+          <a href="#">Главная</a>
+        </li>
+        <li class="menu-item">
+          <a href="#product">Товары</a>
+        </li>
+        <li class="menu-item">
+          <a href="#price">Купить</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="main">
+  <div class="container">
+    <div class="main-info">
+      <h1 class="main-title">Приветствуем Вас в нашем магазине!</h1>
+      <div class="main-text">
+        Вы можете обменять свою внутреннюю валюту Digital Rubles на реальные товары из нашего ассортимента!
+      </div>
+      <div class="main-action">
+        <button class="button main-button" type="button">Посмотреть товары</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="user" id="product">
+  <div class="container">
+    <h2 class="sub-title">Наш ассортимент</h2>
+    <div class="user-items">
+      <div class="user-item">
+        <div class="user-item-image">
+          <img src="../images/879884_a.jpeg" alt="Image 1">
+        </div>
+        <div class="user-item-title">Кружка</div>
+      </div>
+      <div class="user-item">
+        <div class="user-item-image">
+          <img src="../images/3323925_d.jpg" alt="Image 2">
+        </div>
+        <div class="user-item-title">Толстовка</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="price" id="price">
+  <div class="container">
+    <h2 class="sub-title">Купить понравившийся товар</h2>
+    <div class="price-text">
+      Заполните данные для совершения транзакции
+    </div>
+    <form action="" class="price-form">
+      <input type="text" class="price-input" id="name" placeholder="Ваше имя" required>
+      <input type="text" class="price-input" id="role" placeholder="Товар, который вас интересует" required>
+      <button class="button" type="button" id="price-action">Купить</button>
+    </form>
+  </div>
+</section>
+
+<script src="../scripts/script_market.js"></script>
+</body>
+</html>
